@@ -18,7 +18,8 @@ class spaceship extends Floater{
     myXspeed = 0;
     myYspeed = 0;
     myColor = (int)(Math.random()*50)+115;
-    myCenterX = myCenterY = (int)(Math.random()*600);
+    myCenterX = (int)(Math.random()*600);
+    myCenterY = (int)(Math.random()*600);
   }
    public void stopXspeed() { 
       if(myXspeed>5){myXspeed-=5;}
