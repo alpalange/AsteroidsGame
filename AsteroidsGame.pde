@@ -31,11 +31,11 @@ void keyPressed(){
   if(key == 's'){
     chip.accelerate(-5);
   }
-  if(key == 'z'){
+  if(key == 'q'){
     chip.stopXspeed();
     chip.stopYspeed();
   }
-  if(key == 'x'){
+  if(key == 'e'){
       chip.hyperspace();
   }
 }
