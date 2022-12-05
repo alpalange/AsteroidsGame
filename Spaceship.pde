@@ -32,4 +32,10 @@ class spaceship extends Floater{
       else if(myYspeed<-5){myYspeed+=5;}
       else {myYspeed=0;}
   }
+  public double retCenterX() {
+      return myCenterX;
+  }
+  public double retCenterY() {
+      return myCenterY;
+  }
 }//end spaceship class
