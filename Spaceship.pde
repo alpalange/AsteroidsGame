@@ -22,7 +22,7 @@ class spaceship extends Floater{
     myCenterY = (int)(Math.random()*600);
     myPointDirection = (int)(Math.random()*360);
   }
-   public void stopXspeed() { 
+  public void stopXspeed() { 
       if(myXspeed>5){myXspeed-=5;}
       else if(myXspeed<-5){myXspeed+=5;}
       else {myXspeed=0;}
