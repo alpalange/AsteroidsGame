@@ -1,3 +1,4 @@
+/*
 class asteroid extends Floater {
   private double myRotSpeed;
   class asteroid extends Floater {
@@ -43,3 +44,4 @@ class asteroid extends Floater {
     return myCenterY;
   }
 }
+*/
