@@ -1,7 +1,5 @@
 class asteroid extends Floater {
   private double myRotSpeed;
-  class asteroid extends Floater {
-  private double myRotSpeed;
   public asteroid(){
    if ((int)(Math.random()*3) == 1){
        corners = 9;
