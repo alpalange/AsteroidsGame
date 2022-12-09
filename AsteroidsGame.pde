@@ -1,3 +1,17 @@
+ArrayList<asteroid> bonk = new ArrayList<asteroid>();
+spaceship chip = new spaceship();
+star[] field = new star[200];
+void setup() {
+ size(600,600);
+ background(75, 100, 165);
+ for(int i = 0; i < field.length; i++){
+   field[i] = new star();
+ }
+ for(int j = 0; j<10; j++){
+     bonk.add(new asteroid());
+ }
+ 
+} //end setup
 void draw(){
     fill(75,100,165);
     rect(0,0,600,600);
