@@ -71,7 +71,7 @@ void keyPressed() {
   if (key == 'e') {
     chip.hyperspace();
   }
-  if (key == 'b') {
+  if (key == ' ') {
     bob.add(new bullet(chip));
     bob.get(bob.size()-1).accelerate(6.0);
   }
