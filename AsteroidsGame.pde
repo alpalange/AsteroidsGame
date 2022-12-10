@@ -53,10 +53,10 @@ void draw() {
 } //end draw
 void keyPressed() {
   if (key == 'd') {
-    chip.turn(5);
+    chip.turn(15);
   }
   if (key == 'a') {
-    chip.turn(-5);
+    chip.turn(-15);
   }
   if (key == 'w') {
     chip.accelerate(5);
